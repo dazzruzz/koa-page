@@ -81,7 +81,7 @@ const NavBar = () => {
 			</nav> 
 
 			<nav className='flex items-center justify-center flex-wrap'>
-				<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mr-3 bg-light rounded-l-xl rounded-r-xl rounded-t-xl"> <Youtube /> </motion.a>
+				<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-9 mr-3"> <Youtube /> </motion.a>
 				<motion.a href="https://www.tiktok.com/@kwasi.alvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3"><TikTok /></motion.a>
 				<motion.a href="https://www.linkedin.com/in/kwasi-osei-alvarez-70b851260" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3"><LinkedInIcon /></motion.a>
 			<button 
@@ -114,7 +114,7 @@ const NavBar = () => {
 					</nav> 
 		
 					<nav className='flex items-center justify-center flex-wrap mt-2'>
-						<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mr-3 sm:mx-1 bg-light rounded-l-xl rounded-r-xl rounded-t-xl"> <Youtube /> </motion.a>
+						<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-9 mr-3 sm:mx-1"> <Youtube /> </motion.a>
 						<motion.a href="https://www.tiktok.com/@kwasi.alvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1"><TikTok /></motion.a>
 						<motion.a href="https://www.linkedin.com/in/kwasi-osei-alvarez-70b851260" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1"><LinkedInIcon /></motion.a>
 		

@@ -43,7 +43,8 @@ export const Youtube = ({ className, ...rest }) => (
     {...rest}
     className={`w-full h-auto ${className}`}
   >
-    <path fill="none"/>
+    <path fill="#FFFFFF" d="m8,4 L40,10 L40,30 L10,30 L8,4 z"/>
+
     <path
       fill="#CE1312"
       fillRule="evenodd"

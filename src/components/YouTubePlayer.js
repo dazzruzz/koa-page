@@ -8,7 +8,7 @@ const YouTubePlayer = ({ videoId }) => {
 	  const player = event.target;
   
 	  // For example, you can automatically play the video
-	  player.playVideo();
+	  // player.playVideo();
 	};
   
 	const onError = (error) => {
