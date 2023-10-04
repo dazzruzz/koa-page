@@ -144,8 +144,8 @@ const projects = () => {
 
 				<div className='flex justify-center mt-14'>
 				<div className='mt-0 mr-10 text-primary text-3xl dark:text-primaryDark'>Weitere Videos und Reels unter</div>
-					<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-10 mr-3 sm:mx-1 bg-light rounded-l-xl rounded-r-xl rounded-t-xl"> <Youtube /> </motion.a>
-					<motion.a href="https://www.tiktok.com/@kwasi.alvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-9 mx-3 sm:mx-1"><TikTok /></motion.a>
+					<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-10 mr-3 sm:mx-1"> <Youtube /> </motion.a>
+					<motion.a href="https://www.tiktok.com/@kwasi.alvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-8 mx-3 sm:mx-1"><TikTok /></motion.a>
 				</div>
 				</Layout>
 			</main>				
