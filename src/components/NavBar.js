@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import {React, useState} from 'react';
 import Logo from './Logo';
-import { TwitterIcon, TikTok, Youtube, LinkedInIcon, PinterestIcon, SunIcon, MoonIcon } from './Icons';
+import { TikTok, Youtube, LinkedInIcon, SunIcon, MoonIcon } from './Icons';
 import { useRouter } from 'next/router';
 import { motion } from 'framer-motion';
 import useThemeSwitcher from './hooks/useThemeSwitcher';
@@ -75,18 +75,15 @@ const NavBar = () => {
 
 			<div className='w-full flex justify-between items-center lg:hidden'>
 			<nav>
-				<CustomLink href="/" title="Home" className='mr-4'/> 
-				<CustomLink href="/about" title="About" className='mx-4'/>
-				<CustomLink href="/projects" title="Projects" className='mx-4'/>
-				<CustomLink href="/articles" title="Articles" className='ml-4'/>
+				<CustomLink href="/" title="Hallo" className='mr-4'/> 
+				<CustomLink href="/about" title="Über" className='mx-4'/>
+				<CustomLink href="/projects" title="Projekte" className='mx-4'/>
 			</nav> 
 
 			<nav className='flex items-center justify-center flex-wrap'>
 				<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mr-3 bg-light rounded-l-xl rounded-r-xl rounded-t-xl"> <Youtube /> </motion.a>
 				<motion.a href="https://www.tiktok.com/@kwasi.alvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3"><TikTok /></motion.a>
-				<motion.a href="https://twitter.com" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3"><LinkedInIcon /></motion.a>
-				<motion.a href="https://twitter.com" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 ml-3 bg-light rounded-full"><PinterestIcon /></motion.a>
-
+				<motion.a href="https://www.linkedin.com/in/kwasi-osei-alvarez-70b851260" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3"><LinkedInIcon /></motion.a>
 			<button 
 				onClick={() => setMode(mode === "light" ? "dark" : "light")} 
 				className={`ml-3 felx items-center rounded-full p-1 
@@ -110,17 +107,16 @@ const NavBar = () => {
 					animate={{scale:1, opacity:1}}
 					className="min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32">
 					<nav className="flex items-center flex-col justify-center">
-						<CustomMobileLink href="/" title="Home" className='' toggle={handleClick}/> 
-						<CustomMobileLink href="/about" title="About" className='' toggle={handleClick}/>
-						<CustomMobileLink href="/projects" title="Projects" className='' toggle={handleClick}/>
-						<CustomMobileLink href="/articles" title="Articles" className='' toggle={handleClick}/>
+						<CustomMobileLink href="/" title="Hallo" className='' toggle={handleClick}/> 
+						<CustomMobileLink href="/about" title="Über" className='' toggle={handleClick}/>
+						<CustomMobileLink href="/projects" title="Projekte" className='' toggle={handleClick}/>
+						
 					</nav> 
 		
 					<nav className='flex items-center justify-center flex-wrap mt-2'>
 						<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mr-3 sm:mx-1 bg-light rounded-l-xl rounded-r-xl rounded-t-xl"> <Youtube /> </motion.a>
 						<motion.a href="https://www.tiktok.com/@kwasi.alvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1"><TikTok /></motion.a>
-						<motion.a href="https://twitter.com" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1"><LinkedInIcon /></motion.a>
-						<motion.a href="https://twitter.com" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 ml-3 bg-light rounded-full sm:mx-1"><PinterestIcon /></motion.a>
+						<motion.a href="https://www.linkedin.com/in/kwasi-osei-alvarez-70b851260" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1"><LinkedInIcon /></motion.a>
 		
 					<button 
 						onClick={() => setMode(mode === "light" ? "dark" : "light")} 

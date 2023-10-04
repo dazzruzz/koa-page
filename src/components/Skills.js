@@ -26,18 +26,18 @@ const Skills = () => {
 			'>
 				<motion.div className='flex items-center justify-center rounded-full font-semibold 
 				bg-dark text-light p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2'
-				whileHover={{scale:1.05}}>Web</motion.div>
+				whileHover={{scale:1.05}}>Video</motion.div>
 
-				<Skill name="HTML" x="-33vw" y="-2vw"  />
-				<Skill name="CSS" x="-5vw" y="-8vw"  />
-				<Skill name="Java" x="-18vw" y="-13vw"  />
-				<Skill name="React" x="25vw" y="8vw"  />
-				<Skill name="DotNet" x="18vw" y="-12vw"  />
-				<Skill name="SAP" x="-10vw" y="15vw"  />
-				<Skill name="Pixelmator" x="3vw" y="-20vw"  />
-				<Skill name="Graphics" x="12vw" y="10vw"  />
-				<Skill name="Blender" x="-20vw" y="5vw"  />
-				<Skill name="Tailwind" x="30vw" y="0vw"  />
+				<Skill name="Premiere Pro" x="-33vw" y="-2vw"  />
+				<Skill name="Final Cut Pro" x="-5vw" y="-8vw"  />
+				<Skill name="Lightroom" x="-18vw" y="-13vw"  />
+				<Skill name="Lumafusion" x="25vw" y="8vw"  />
+				<Skill name="iMovie" x="18vw" y="-12vw"  />
+				<Skill name="Capcut" x="-10vw" y="15vw"  />
+				<Skill name="Premiere Rush" x="3vw" y="-20vw"  />
+				<Skill name="Videoleap" x="12vw" y="10vw"  />
+				<Skill name="Sony alpha" x="-20vw" y="5vw"  />
+				<Skill name="Canon" x="30vw" y="0vw"  />
 
 			</div>
 		</>

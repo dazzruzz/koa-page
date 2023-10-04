@@ -35,7 +35,7 @@ const Education = () => {
 	})
 		return (
 			<div className='my-64'>
-				<h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>Education</h2>
+				<h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>Ausbildung & Kurse</h2>
 
 
 				<div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
@@ -45,27 +45,43 @@ const Education = () => {
 			
 					<ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
 						<Details
-						type="Bachelor Of Science In Computer Science" 
-						time="2016-2020"
-						place="Massachusetts Institute Of Technology (MIT)"
-						info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-						Intelligence."
+						type="Praktikum Video und Fotografie bei Wasinger Media House" 
+						time="Oktober 2022 - Oktober 2023 "
+						place="Schlieren, Zürich"
+						info="• Bildbearbeitung mit Lightroom
+						• Videobearbetung mit Permiere Pro 
+						• Aufbau und Kameraführung für Liveproduktionen 
+						• Erstellung von Businessportaits 
+						• Content Creation für Social Media"
 						/>
 
 						<Details
-						type="Master Of Computer Science" 
-						time="2020-2022"
-						place="Stanford University"
-						info="Completed a master's project on deep learning, developing a new neural network architecture for natural 
-						language understanding.."
+						type="Videobearbeitungskurs mit Fokus auf Adobe After Effects" 
+						time="Juni 2021"
+						place="Wallisellen, Zürich"
+						info="• Sequenzverwaltung
+						• Ebenenbearbeitung und Compositing
+						• Animation und Keyframe-Erstellung
+						• Effekte und Masken
+						• Texterstellung und -animation
+						• Zeitlupeneffekte (Retiming)
+						• Arbeiten in 3D
+						• Rendering und Export
+						• Erweiterte Funktionen wie Adjustment Layer, Null-Objekt und Expressions
+						• Bildstabilisierung
+						• Chroma-Keying (Green- oder Bluescreen)
+						• Bildverfolgung in 2D, 2,5D und 3D"
 						/>
 
 						<Details
-						type="Online Coursework" 
-						time="2016-2020"
-						place="Coursera And EdX"
-						info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
-						Learning Engineering."
+						type="Logistiker EFZ" 
+						time="2015-2019"
+						place="Mueller AG, Langenthal"
+						info="• Warneingang / Warenausgang / Warenkontrolle 
+						• Ein- / Auslagerung im Handlager und Hochregallager
+						• Kommissionieren, Verpacken für den Versand • Rüsten mit dem Hallenkran
+						• Bedienen diverser Flurförderfahrzeuge und Hochregalstapler
+						• Datenverarbeitung mit ERP / Fehr-WMS"
 						/>
 					</ul>
 				</div>
