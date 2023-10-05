@@ -13,8 +13,8 @@ export default function Home() {
     <>
       <Head>
 
-        <title>Willkommen bei Kwasi Visuals | Kreative Videografie</title>
-        <meta name="description" content="Entdecken Sie bei Kwasi Visuals fesselnde visuelle Geschichten, beeindruckende Videografie und kreative Innovationen von Kwasi Osei Alvarez." />
+        <title>Kwasi Visuals | Kreative Videografie | Content Creator | Reels und professionelle Videoclips</title>
+        <meta name="description" content="Hey, herzlich willkommen bei Kwasi Visuals! Auf meiner Website findest du meine kreativen und spannenden Videos und Reels. Als Content Creator liebe ich es, deine Visionen zum Leben zu erwecken. Wenn du nach einer professionellen und trendigen Videoproduktion suchst, bist du hier genau richtig. Lass uns gemeinsam grossartige visuelle Inhalte schaffen und deine Ideen ins Rampenlicht bringen!" />
         <script async src="https://stats.mcathome.ch/script.js" data-website-id="e3d26fca-0d91-4473-b80a-bba02131b9d2"></script>
       </Head>
       <TransitionEffect />

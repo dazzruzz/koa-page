@@ -27,7 +27,7 @@ const FeaturedProject = ({type, title, summary, link, videoId}) => {
 
 			<div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
 				<span className='text-primary font-medium text-xl dark:text-primaryDark xs:text-base'>{type}</span>
-				<Link href={link} target="_blank" className='hover:underline underline-offset-2'>
+				<Link href={link} target="_blank">
 					<h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm'>{title}</h2>
 				</Link>
 				<p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
@@ -91,7 +91,7 @@ const projects = () => {
 								summary="
 								Das Erkunden von Mauritius und das Festhalten besonderer Momente waren eine unvergessliche Erfahrung. 
 								Die Kamera hat uns geholfen, die Schönheit dieser Insel während unserer Zeit dort einzufangen"
-								link="/"
+								link="https://www.youtube.com/watch?v=MrKzh95snAo&t=14s"
 								github="/"
 								type="Inselabenteuer"
 								videoId={"MrKzh95snAo"}
@@ -105,7 +105,7 @@ const projects = () => {
 								summary="
 								In Milano hatte ich das Glück, diese wunderschöne Stadt mit meinem Smartphone zu erkunden und festzuhalten. 
 								Dieses Video, obwohl es schon etwas älter ist, erinnert mich immer wieder an die schönen Momente in dieser faszinierenden Stadt. "
-								link="/"
+								link="https://www.youtube.com/watch?v=fv46Bo4a6FU"
 								github="/"
 								type="Milano im Sommerglanz"
 								videoId={"fv46Bo4a6FU"}
@@ -118,7 +118,7 @@ const projects = () => {
 								summary="
 								In Sörenberg verbrachte ich eine wundervolle Zeit und hielt die magischen Momente in der ruhigen Natur fest. 
 								Die Aufnahmen zeigen, dass es nicht immer viel bedarf braucht, um die Schönheit und Stimmung dieser Landschaft einzufangen."
-								link="/"
+								link="https://www.youtube.com/watch?v=Q5PYJZZH2hQ"
 								github="/"
 								type="Schweizer Alpenidylle"
 								videoId={"Q5PYJZZH2hQ"}
@@ -131,7 +131,7 @@ const projects = () => {
 								summary="
 								In der Altstadt von Bern habe ich wertvolle Momente mit statischen Aufnahmen eingefangen, 
 								um die besondere Atmosphäre diesem historischen Ort festzuhalten."
-								link=""
+								link="https://www.youtube.com/watch?v=hfAUVH4Nt6k"
 								github="/"
 								type="Lichter und Atmosphäre"
 								videoId={"SNlY1fH8BDE"}
