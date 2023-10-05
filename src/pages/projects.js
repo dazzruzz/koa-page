@@ -77,6 +77,7 @@ const projects = () => {
 			<Head>
 				<title>Kwasi Visuals | Projekte</title>
 				<meta name="description" content="Erkunden Sie inspirierende Videoprojekte und kreative Arbeiten von Kwasi Osei Alvarez auf der Projektseite von Kwasi Visuals." />			</Head>
+				<script async src="https://stats.mcathome.ch/script.js" data-website-id="e3d26fca-0d91-4473-b80a-bba02131b9d2"></script>
 			<TransitionEffect />
 
 			<main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>

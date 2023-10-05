@@ -18,6 +18,7 @@ export default function App({ Component, pageProps }) {
       <Head> 
          <meta name="viewport" content="width=device-width, initial-scale=1" />
          <link rel="icon" href="/favicon.ico" />
+         <script async src="https://stats.mcathome.ch/script.js" data-website-id="e3d26fca-0d91-4473-b80a-bba02131b9d2"></script>
       </Head>
       <main className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}> 
          <NavBar />

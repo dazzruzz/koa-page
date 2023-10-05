@@ -41,6 +41,7 @@ const about = () => {
 			<Head>
 				<title>Kwasi Visuals | About Page</title>
 				<meta name="description" content="Willkommen bei Kwasi Visuals, dem Zuhause für visuelle Geschichten und atemberaubende Videografie von Kwasi Osei Alvarez. Entdecken Sie einzigartige visuelle Erlebnisse und kreative Innovationen." />
+				<script async src="https://stats.mcathome.ch/script.js" data-website-id="e3d26fca-0d91-4473-b80a-bba02131b9d2"></script>
 			</Head>
 			<TransitionEffect />
 

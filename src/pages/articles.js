@@ -97,6 +97,7 @@ const articles = () =>   {
 			<Head>
 				<title>Kwasi Visuals | Articles Page</title>
 				<meta name="description" content="any description" />
+				<script async src="https://stats.mcathome.ch/script.js" data-website-id="e3d26fca-0d91-4473-b80a-bba02131b9d2"></script>
 			</Head>
 			<TransitionEffect />
 			<main className='w-full mb-16 felx flex-col irems-center justify-center overflow-hidden dark:text-light'>
