@@ -52,7 +52,7 @@ const Experience = () => {
 						/>
 						<Details
 						position="Kameramnn für Hochzeitsvideo"
-						time="2023" address="für Fuat Davulcu"
+						time="2023" address="für F.D."
 						work="Kameramann bei einer Hochzeitsveranstaltung in Zusammenarbeit mit meinem Kollegen. 
 						Erfassung von Filmaufnahmen, einschliesslich Drohnenaufnahmen. 
 						"
@@ -60,9 +60,7 @@ const Experience = () => {
 						<Details
 						position="Dokumentarfilm & Interview"
 						time="2023" address="Eigenprojekt"
-						work="In Zusammenarbeit mit meiner Schwester wurde ein eigenes Videoprojekt realisiert.
-						dabei wurde ein Interview bei ihr zu Hause gefilmt, wobei eine Canon C300 Filmkamera und ein Lichtsetup
-						verwendet wurden."
+						work="In Zusammenarbeit mit einem Team wurde ein kleines Videoprojekt realisiert,  wobei eine Canon C300 Filmkamera und professionelle Beleuchtung zum Einsatz kamen."
 						/>
 						<Details
 						position="Kameramann bei Kurzfilm - Don't walk away"

@@ -27,7 +27,7 @@ const FeaturedProject = ({type, title, summary, link, videoId}) => {
 
 			<div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
 				<span className='text-primary font-medium text-xl dark:text-primaryDark xs:text-base'>{type}</span>
-				<Link href={link} target="_blank" className='hover:underline underline-offset-2'>
+				<Link href={link} target="_blank">
 					<h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm'>{title}</h2>
 				</Link>
 				<p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
@@ -77,6 +77,7 @@ const projects = () => {
 			<Head>
 				<title>Kwasi Visuals | Projekte</title>
 				<meta name="description" content="Erkunden Sie inspirierende Videoprojekte und kreative Arbeiten von Kwasi Osei Alvarez auf der Projektseite von Kwasi Visuals." />			</Head>
+				<script async src="https://stats.mcathome.ch/script.js" data-website-id="e3d26fca-0d91-4473-b80a-bba02131b9d2"></script>
 			<TransitionEffect />
 
 			<main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
@@ -90,7 +91,7 @@ const projects = () => {
 								summary="
 								Das Erkunden von Mauritius und das Festhalten besonderer Momente waren eine unvergessliche Erfahrung. 
 								Die Kamera hat uns geholfen, die Schönheit dieser Insel während unserer Zeit dort einzufangen"
-								link="/"
+								link="https://www.youtube.com/watch?v=MrKzh95snAo&t=14s"
 								github="/"
 								type="Inselabenteuer"
 								videoId={"MrKzh95snAo"}
@@ -104,7 +105,7 @@ const projects = () => {
 								summary="
 								In Milano hatte ich das Glück, diese wunderschöne Stadt mit meinem Smartphone zu erkunden und festzuhalten. 
 								Dieses Video, obwohl es schon etwas älter ist, erinnert mich immer wieder an die schönen Momente in dieser faszinierenden Stadt. "
-								link="/"
+								link="https://www.youtube.com/watch?v=fv46Bo4a6FU"
 								github="/"
 								type="Milano im Sommerglanz"
 								videoId={"fv46Bo4a6FU"}
@@ -117,7 +118,7 @@ const projects = () => {
 								summary="
 								In Sörenberg verbrachte ich eine wundervolle Zeit und hielt die magischen Momente in der ruhigen Natur fest. 
 								Die Aufnahmen zeigen, dass es nicht immer viel bedarf braucht, um die Schönheit und Stimmung dieser Landschaft einzufangen."
-								link="/"
+								link="https://www.youtube.com/watch?v=Q5PYJZZH2hQ"
 								github="/"
 								type="Schweizer Alpenidylle"
 								videoId={"Q5PYJZZH2hQ"}
@@ -125,15 +126,14 @@ const projects = () => {
 						</div>
 						<div className='col-span-12'>
 							<FeaturedProject 
-								title="Bern - Schweiz"
+								title="Biel/Bienne - Schweiz"
 								img={project1}
 								summary="
-								In der Altstadt von Bern habe ich wertvolle Momente mit statischen Aufnahmen eingefangen, 
-								um die besondere Atmosphäre diesem historischen Ort festzuhalten."
-								link=""
+								Im Auftrag von Bubblz habe ich die kunstvolle Zubereitung ihrer einzigartigen Bubble Teas festgehalten. Herzlichen Dank für das entgegengebrachte Vertrauen und den amüsanten Drehtag:-)"
+								link="https://www.youtube.com/shorts/SYOncFxchPs"
 								github="/"
-								type="Lichter und Atmosphäre"
-								videoId={"SNlY1fH8BDE"}
+								type="Bubblz - Farbenfrohe Kreationen"
+								videoId={"SYOncFxchPs"}
 						/>
 						</div>
 
