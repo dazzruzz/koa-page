@@ -126,15 +126,14 @@ const projects = () => {
 						</div>
 						<div className='col-span-12'>
 							<FeaturedProject 
-								title="Bern - Schweiz"
+								title="Biel/Bienne - Schweiz"
 								img={project1}
 								summary="
-								In der Altstadt von Bern habe ich wertvolle Momente mit statischen Aufnahmen eingefangen, 
-								um die besondere Atmosphäre diesem historischen Ort festzuhalten."
-								link="https://www.youtube.com/watch?v=hfAUVH4Nt6k"
+								Im Auftrag von Bubblz habe ich die kunstvolle Zubereitung ihrer einzigartigen Bubble Teas festgehalten."
+								link="https://www.youtube.com/shorts/SYOncFxchPs"
 								github="/"
-								type="Lichter und Atmosphäre"
-								videoId={"SNlY1fH8BDE"}
+								type="Bubblz - Farbenfrohe Kreationen"
+								videoId={"SYOncFxchPs"}
 						/>
 						</div>
 
