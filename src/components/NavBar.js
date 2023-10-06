@@ -81,9 +81,9 @@ const NavBar = () => {
 			</nav> 
 
 			<nav className='flex items-center justify-center flex-wrap'>
-				<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-9 mr-3"> <Youtube /> </motion.a>
-				<motion.a href="https://www.tiktok.com/@kwasi.alvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3"><TikTok /></motion.a>
-				<motion.a href="https://www.linkedin.com/in/kwasi-osei-alvarez-70b851260" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3"><LinkedInIcon /></motion.a>
+				<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-9 mr-3" data-umami-event="youtube-icon-pressed"> <Youtube /> </motion.a>
+				<motion.a href="https://www.tiktok.com/@kwasi.alvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3" data-umami-event="tiktok-icon-pressed"><TikTok /></motion.a>
+				<motion.a href="https://www.linkedin.com/in/kwasi-osei-alvarez-70b851260" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3" data-umami-event="linkedin-icon-pressed"><LinkedInIcon /></motion.a>
 			<button 
 				onClick={() => setMode(mode === "light" ? "dark" : "light")} 
 				className={`ml-3 felx items-center rounded-full p-1 
@@ -114,10 +114,10 @@ const NavBar = () => {
 					</nav> 
 		
 					<nav className='flex items-center justify-center flex-wrap mt-2'>
-						<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-9 mr-3 sm:mx-1"> <Youtube /> </motion.a>
-						<motion.a href="https://www.tiktok.com/@kwasi.alvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1"><TikTok /></motion.a>
-						<motion.a href="https://www.linkedin.com/in/kwasi-osei-alvarez-70b851260" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1"><LinkedInIcon /></motion.a>
-		
+						<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-9 mr-3 sm:mx-1" data-umami-event="youtube-icon-pressed"> <Youtube /> </motion.a>
+						<motion.a href="https://www.tiktok.com/@kwasi.alvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1" data-umami-event="tiktok-icon-pressed"><TikTok /></motion.a>
+						<motion.a href="https://www.linkedin.com/in/kwasi-osei-alvarez-70b851260" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1" data-umami-event="linkedin-icon-pressed"><LinkedInIcon /></motion.a>
+		                                                                                                                                                                              data-umami-event="-icon-pressed"data-umami-event=""-icon-pressed
 					<button 
 						onClick={() => setMode(mode === "light" ? "dark" : "light")} 
 						className={`ml-3 felx items-center rounded-full p-1 

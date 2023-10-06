@@ -19,7 +19,7 @@ const FeaturedProject = ({type, title, summary, link, videoId}) => {
 		lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl'>
 		<div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light rounded-br-3xl 
 		xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]' />
-			<Link href={link} target="_blank" className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'>
+			<Link href={link} target="_blank" className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full' data-umami-event="featured-project-pressed" data-umami-event-link={link}>
 			<YouTubePlayer 
 			videoId={videoId}
 			/>
@@ -27,7 +27,7 @@ const FeaturedProject = ({type, title, summary, link, videoId}) => {
 
 			<div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
 				<span className='text-primary font-medium text-xl dark:text-primaryDark xs:text-base'>{type}</span>
-				<Link href={link} target="_blank">
+				<Link href={link} target="_blank" data-umami-event="featured-project-pressed" data-umami-event-link={link} data-umami-event-title={title}>
 					<h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm'>{title}</h2>
 				</Link>
 				<p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
@@ -144,8 +144,8 @@ const projects = () => {
 
 				<div className='flex justify-center mt-14'>
 				<div className='mt-0 mr-10 text-primary text-3xl dark:text-primaryDark'>Weitere Videos und Reels unter</div>
-					<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-10 mr-3 sm:mx-1"> <Youtube /> </motion.a>
-					<motion.a href="https://www.tiktok.com/@kwasi.alvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-8 mx-3 sm:mx-1"><TikTok /></motion.a>
+					<motion.a href="https://www.youtube.com/@kwasialvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-10 mr-3 sm:mx-1" data-umami-event="youtube-icon-pressed"> <Youtube /> </motion.a>
+					<motion.a href="https://www.tiktok.com/@kwasi.alvarez" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-8 mx-3 sm:mx-1" data-umami-event="tiktok-icon-pressed"><TikTok /></motion.a>
 				</div>
 				</Layout>
 			</main>				

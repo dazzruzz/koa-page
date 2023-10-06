@@ -17,7 +17,8 @@ const HireMe = () => {
 
 				 dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light
 				 md:w-10 md:h-10 md:text-[6px]
-				 '>
+				 '
+				 data-umami-event="say-hello-pressed">
 				Sag Hallo
 				</Link>
 
