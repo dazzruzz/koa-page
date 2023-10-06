@@ -52,7 +52,7 @@ const Experience = () => {
 						/>
 						<Details
 						position="Kameramnn für Hochzeitsvideo"
-						time="2023" address="für Fuat Davulcu"
+						time="2023" address="für F.D."
 						work="Kameramann bei einer Hochzeitsveranstaltung in Zusammenarbeit mit meinem Kollegen. 
 						Erfassung von Filmaufnahmen, einschliesslich Drohnenaufnahmen. 
 						"
