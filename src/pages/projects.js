@@ -129,7 +129,7 @@ const projects = () => {
 								title="Biel/Bienne - Schweiz"
 								img={project1}
 								summary="
-								Im Auftrag von Bubblz habe ich die kunstvolle Zubereitung ihrer einzigartigen Bubble Teas festgehalten."
+								Im Auftrag von Bubblz habe ich die kunstvolle Zubereitung ihrer einzigartigen Bubble Teas festgehalten. Herzlichen Dank für das entgegengebrachte Vertrauen und den amüsanten Drehtag:-)"
 								link="https://www.youtube.com/shorts/SYOncFxchPs"
 								github="/"
 								type="Bubblz - Farbenfrohe Kreationen"
