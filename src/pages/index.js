@@ -4,7 +4,6 @@ import profileArt from "../../public/images/profile/colorartkoawbg.png"
 import Image from 'next/image'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
-import { LinkArrow } from '@/components/Icons'
 import HireMe from '@/components/HireMe'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -39,8 +38,9 @@ export default function Home() {
 
                 <div className='flex items-center self-start mt-2 lg:self-center'>
                   
-                  <Link href="mailto:kwasi.alvarez@hotmail.com" target={"_blank"}
+                  <Link href="mailto:kwasi.alvarez@hotmail.com"
                   className='ml-1 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base'
+                  data-umami-event="contact-pressed"
                   >Kontakt</Link>
                 </div>
               </div>
